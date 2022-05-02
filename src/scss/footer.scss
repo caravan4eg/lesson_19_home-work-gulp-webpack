@@ -1,0 +1,135 @@
+//====================================================================================================
+.footer {
+	background-color: #2b2b2b;
+	color: #ffffff;
+	padding-top: 47px;
+	padding-bottom: 17px;
+
+	// .footer__container
+	&__container {
+	}
+	// .footer__header
+	&__header {
+		display: flex;
+		flex-wrap: wrap;
+
+		flex: 0 0 50%;
+		justify-content: space-between;
+		margin: 0px 0px 46px 0px;
+	}
+	// .footer__items
+	&__items {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 0px -39px 54px -39px;
+		// row-gap: 78px;
+	}
+	// .footer__item
+	&__item {
+		flex: 0 1 20%;
+		padding: 0 39px;
+		min-width: 100px;
+	}
+	// .footer__footer
+	&__footer {
+		display: flex;
+		flex-wrap: wrap;
+		flex: 0 1 33.333%;
+		justify-content: space-between;
+	}
+}
+.header-footer {
+	// .header-footer__text
+	&__text {
+	}
+	// .header-footer__title
+	&__title {
+		margin: 0px 0px 9px 0px;
+		font-weight: 500;
+		font-size: 38px;
+		line-height: 1.32;
+	}
+	// .header-footer__subtitle
+	&__subtitle {
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 1.32;
+	}
+	// .header-footer__form
+	&__form {
+	}
+	// .header-footer__input
+	&__input {
+		margin: 0px 23px 0px 0px;
+		background-color: #2b2b2b;
+		border: 2px solid #ffffff;
+		border-radius: 4px;
+		padding: 10px;
+		line-height: 1.43;
+		max-width: rem(385);
+		color: #ffffff;
+
+		&::placeholder {
+			font-weight: 300;
+			font-size: 14px;
+			color: #ffffff;
+			opacity: 0.6;
+		}
+	}
+	// .header-footer__btn
+	&__btn {
+		line-height: 1.32;
+		padding: 10px 25px;
+		background: #0156ff;
+		border-radius: 50px;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 21px;
+		align-items: center;
+		text-align: center;
+
+		color: #ffffff;
+	}
+}
+.item-footer {
+	// .item-footer__title
+	&__title {
+		margin: 0px 0px 25px 0px;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 1;
+		color: rgba(255, 255, 255, 0.5);
+	}
+	// .item-footer__items
+	&__items {
+	}
+	// .item-footer__item
+	&__item {
+		margin: 0px 0px 10px 0px;
+	}
+	// .item-footer__link
+	&__link {
+	}
+}
+.footer-footer {
+	// .footer-footer__socials
+	&__socials img {
+		margin: 0px 10px 0px 0px;
+	}
+	// .footer-footer__payments
+	&__payments img {
+		margin: 0px 10px 0px 0px;
+	}
+	// .footer-footer__copyright
+	&__copyright {
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 1.32;
+		text-align: right;
+		color: #ffffff;
+		opacity: 0.6;
+	}
+}
+
+//====================================================================================================
